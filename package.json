@@ -1,0 +1,41 @@
+{
+  "name": "isomorphic",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "test": "mocha tests",
+    "build": "grunt build"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "^4.15.5",
+    "fetch": "^1.1.0",
+    "morgan": "~1.8.1",
+    "pug": "~2.0.0-beta11",
+    "serve-favicon": "~2.4.2",
+    "underscore": "^1.8.3"
+  },
+  "description": "isomorphic web app",
+  "main": "app.js",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.2",
+    "grunt": "~0.4.5",
+    "grunt-babel": "^7.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-uglify": "^3.1.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-shell": "^2.1.0"
+  },
+  "keywords": [
+    "isomorphic"
+  ],
+  "author": "mike.moede@gmail.com",
+  "license": "MIT"
+}
