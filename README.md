@@ -25,18 +25,9 @@ This is a common series of steps I use to create a simple web app
     - see `lib/cow.js` for an example
 - build steps using task runner
     - see `Build Steps`
+- Assumes dist and lib directories are at same depth (since using relative pathing)
 
-# TODO
-
-- replace Grunt with npm scripts or Gulp
-- add front-end framework (Vue)
-- create Yeoman generator
-
-# Issues
-
-- Browserify does a simple translation and is not suitab 
-
-# Build Steps
+# Javascript Build Steps
 
 * lint
 * make sure tests pass
@@ -48,7 +39,18 @@ This is a common series of steps I use to create a simple web app
 * create es5 bundle > bundle+map (es5)
 * minify es5 bundle > bundle.min
 
-ASSUMPTIONS:
+# Related commands
 
-dist and lib directories are at same depth (since using relative pathing)
+- `npm init`
+- `grunt-init node`
+- `express --view=pug {myapp}`
 
+# TODO
+
+- replace Grunt with npm scripts or Gulp
+- add front-end framework (Vue)
+- create Yeoman generator
+
+# Issues
+
+- 
